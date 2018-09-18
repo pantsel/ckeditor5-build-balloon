@@ -47,8 +47,7 @@ BalloonEditor.builtinPlugins = [
 	List,
 	Paragraph,
   Alignment,
-  Table,
-	TableToolbar
+  Table, TableToolbar
 ];
 
 // Editor configuration.
