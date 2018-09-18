@@ -25,6 +25,7 @@ import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
+import Widget from '@ckeditor/ckeditor5-widget/src/widget';
 
 export default class BalloonEditor extends BalloonEditorBase {}
 
@@ -47,7 +48,8 @@ BalloonEditor.builtinPlugins = [
 	List,
 	Paragraph,
   Alignment,
-  Table, TableToolbar
+  Table, TableToolbar,
+  Widget
 ];
 
 // Editor configuration.
