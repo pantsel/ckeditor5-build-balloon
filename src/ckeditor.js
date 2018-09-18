@@ -22,6 +22,7 @@ import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload';
 import Link from '@ckeditor/ckeditor5-link/src/link';
 import List from '@ckeditor/ckeditor5-list/src/list';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
+import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 
 export default class BalloonEditor extends BalloonEditorBase {}
 
@@ -42,7 +43,8 @@ BalloonEditor.builtinPlugins = [
 	ImageUpload,
 	Link,
 	List,
-	Paragraph
+	Paragraph,
+  Alignment
 ];
 
 // Editor configuration.
