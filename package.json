@@ -44,7 +44,6 @@
     "@ckeditor/ckeditor5-theme-lark": "^11.0.0",
     "@ckeditor/ckeditor5-upload": "^10.0.2",
     "@ckeditor/ckeditor5-widget": "^10.2.0",
-    "@ckeditor/ckeditor5-media-embed": "git+https://github.com/ckeditor/ckeditor5-media-embed.git#master",
     "postcss-loader": "^2.1.5",
     "raw-loader": "^0.5.1",
     "style-loader": "^0.21.0",
